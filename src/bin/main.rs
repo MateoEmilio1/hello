@@ -5,7 +5,7 @@ use std::net::TcpStream;
 use std::fs;
 use std::thread;
 use std::time::Duration;
-
+// se corre en la terminal usando: cargo run, cargo check para compilar
 
 fn main() {
     let listener = TcpListener::bind("127.0.0.1:7878").unwrap();
